@@ -1,0 +1,3 @@
+cor laranja : #ef4d2e
+cor branco: #eff0f0
+cor Cinza: #eff0f0
