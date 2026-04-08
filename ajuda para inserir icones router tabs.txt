@@ -1,0 +1,44 @@
+// ==========================================
+// ÍCONES DA BOTTOM TAB - REACT NATIVE EXPO
+// ==========================================
+
+// 1. Importação Geral (Coloque no topo do seu arquivo)
+import { 
+  MaterialIcons, 
+  Feather, 
+  MaterialCommunityIcons, 
+  Ionicons 
+} from '@expo/vector-icons';
+
+// ==========================================
+// 2. Componentes dos Ícones
+// ==========================================
+
+// Início (Home) - Ícone preenchido na cor laranja (aba ativa)
+<MaterialIcons name="home" size={28} color="#e65a37" />
+
+// Oficiais (Sacola) - Ícone de contorno (outline)
+<Feather name="shopping-bag" size={28} color="#555" />
+
+// Live e Vídeo (TV com Play) - Ícone que combina a TV e o símbolo de reprodução
+<MaterialCommunityIcons name="television-play" size={28} color="#555" />
+
+// Notificações (Sino) - Ícone de sino em modo outline
+<Ionicons name="notifications-outline" size={28} color="#555" />
+
+// Eu (Perfil) - Silhueta de usuário em modo outline
+<Ionicons name="person-outline" size={28} color="#555" />
+
+// ==========================================
+// 3. Exemplo de uso no React Navigation (com Badge no Sino)
+// ==========================================
+
+// Para adicionar o número "38" no sino das notificações, 
+// você utiliza a propriedade tabBarBadge nas opções da tela:
+
+// options={{
+//   tabBarBadge: 38, // Cria a bolinha vermelha com o número automaticamente
+//   tabBarIcon: ({ color, size }) => (
+//     <Ionicons name="notifications-outline" size={size} color={color} />
+//   ),
+// }}
