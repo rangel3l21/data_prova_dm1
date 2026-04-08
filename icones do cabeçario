@@ -1,0 +1,11 @@
+import { Ionicons } from '@expo/vector-icons';
+
+// ==========================================
+// 2. Componentes dos Ícones
+// ==========================================
+
+// Carrinho de Compras - Ícone de contorno (outline)
+<Ionicons name="cart-outline" size={24} color="#fff" />
+
+// Mensagens / Chat - Balões de fala sobrepostos em contorno
+<Ionicons name="chatbubbles-outline" size={24} color="#fff" />
